@@ -1,5 +1,5 @@
 {
-  "name": "simpleCDN",
+  "name": "packedPredatorCDN",
   "version": "0.0.0-alpha",
   "description": "simple CDN manager",
   "main": "index.js",
