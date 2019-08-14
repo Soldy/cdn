@@ -1,0 +1,26 @@
+{
+  "name": "simpleCDN",
+  "version": "0.0.0-alpha",
+  "description": "simple CDN manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soldy/cdn.git"
+  },
+  "keywords": [
+    "cdn"
+  ],
+  "author": "Soldy <4786022+Soldy@users.noreply.github.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Soldy/cdn/issues"
+  },
+  "homepage": "https://github.com/Soldy/cdn#readme",
+  "devDependencies": {
+    "interactiveConsole": "0.0.7-alpha0",
+    "nanoTest": "0.0.4-alpha"
+  }
+}
