@@ -15,6 +15,7 @@ jspm_packages/
 .git
 .npmignore
 .gitignore
+.gitattributes
 .editorconfig
 .eslintrc.json
 .jshintrc
