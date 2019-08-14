@@ -4,10 +4,13 @@ exports.cdn=function(inputCdns,inputHttps){
         let before = "";
         if(https ===1)
             before = "https://";
+        if(mix===1)
+            return (before+cdns[mixCdn()]);
         return (before+cdns[countCdn()]);
-    }
+    };
     var currentNumber = 0,
         cdns = inputCdns,
+        mix = 0,
         https = 0;
     if((typeof inputHttps !== "undefined")&&(inputHttps === 1))
         https=1;
@@ -17,8 +20,8 @@ exports.cdn=function(inputCdns,inputHttps){
         if(currentNumber > cdns.length-1)
             currentNumber = 0;
         return now;
-    }
+    };
     var mixCdn = function(){
         currentNumber=Math.floor(Math.random() * cdns.lenth);
-    }
-}
+    };
+};
