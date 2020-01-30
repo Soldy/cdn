@@ -1,6 +1,6 @@
 {
-  "name": "packedPredatorCDN",
-  "version": "0.0.0-alpha",
+  "name": "packedpredatorcdn",
+  "version": "0.0.0-alpha2",
   "description": "simple CDN manager",
   "main": "index.js",
   "scripts": {
